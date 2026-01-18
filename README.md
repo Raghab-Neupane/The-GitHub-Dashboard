@@ -2,26 +2,6 @@
 
 A production-grade React application for exploring GitHub Organizations and their repositories. Built with React, Vite, TypeScript, TanStack Query, and Zustand.
 
-## Features
-
-### Core Functionality
-- ✅ **Dynamic Search**: Query GitHub organizations using the GitHub API
-- ✅ **Result Persistence**: Search state persists on refresh/navigation using Zustand with localStorage
-- ✅ **Error Handling**: Graceful handling of 404, 403, and empty responses
-- ✅ **Organization Avatar**: Efficiently displays organization logos
-- ✅ **State Management**: Uses Zustand for global state and TanStack Query for server state
-- ✅ **Caching**: 5-minute cache with timestamp validation
-- ✅ **Debouncing**: Custom debounce hook for search input (500ms delay)
-- ✅ **Skeleton Screens**: Loading states to reduce layout shift
-- ✅ **Sorting**: Toggle repositories by stars, forks, or recency
-- ✅ **Pagination**: Uses `per_page=10` for pagination demonstration
-
-### Advanced Features (Brownie Points) 🧁
-- ✅ **Infinite Scrolling**: Intersection Observer API for seamless pagination
-- ✅ **Language Distribution Chart**: Interactive pie chart using Recharts
-- ✅ **GitHub Personal Access Token**: Optional token input for higher rate limits
-- ✅ **TypeScript**: Strict type checking with comprehensive interfaces
-
 ## Tech Stack
 
 - **Framework**: React 18+ with Vite
